@@ -24,7 +24,7 @@
 "type": "commonjs",
 
   "devDependencies": {
-    "eslint": "^6.2.1",
+    "eslint": "^9.33.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.0",
