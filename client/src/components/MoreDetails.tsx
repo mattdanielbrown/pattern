@@ -4,7 +4,7 @@ import Dropdown from 'plaid-threads/Dropdown';
 import IconButton from 'plaid-threads/IconButton';
 import Touchable from 'plaid-threads/Touchable';
 
-import LaunchLink  from './LaunchLink.tsx';
+import LaunchLink from './LaunchLink.tsx';
 import useOnClickOutside from '../hooks/useOnClickOutside.ts';
 import useLink from '../services/link.tsx';
 

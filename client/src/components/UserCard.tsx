@@ -6,7 +6,7 @@ import Touchable from 'plaid-threads/Touchable';
 import UserDetails from './UserDetails.tsx';
 import LaunchLink from './LaunchLink.tsx';
 
-import useItems from '../services/items.tsx'
+import useItems from '../services/items.tsx';
 import useUsers from '../services/users.tsx';
 import useLink from '../services/link.tsx';
 

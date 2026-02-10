@@ -3,10 +3,10 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-import Sockets from "./components/Sockets.jsx";
+import Sockets from './components/Sockets.jsx';
 import OAuthLink from './components/OAuthLink.tsx';
 import Landing from './components/Landing.tsx';
-import UserPage from "./components/UserPage.tsx";
+import UserPage from './components/UserPage.tsx';
 import UserList from './components/UserList.tsx';
 import { AccountsProvider } from './services/accounts.tsx';
 import { InstitutionsProvider } from './services/institutions.tsx';

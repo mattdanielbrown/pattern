@@ -26,7 +26,6 @@ import UserCard from './UserCard.tsx';
 import LoadingCallout from './LoadingCallout.tsx';
 import ErrorMessage from './ErrorMessage.tsx';
 
-
 // provides view of user's net worth, spending by category and allows them to explore
 // account and transactions details for linked items
 
