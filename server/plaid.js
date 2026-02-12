@@ -38,9 +38,12 @@ const OPTIONS = { clientApp: 'Plaid-Pattern' };
  */
 const defaultLogger = async (clientMethod, clientMethodArgs, response) => {
   const accessToken = clientMethodArgs[0].access_token;
-  const { id: itemId, user_id: userId } = await retrieveItemByPlaidAccessToken(
-    accessToken
-  );
+  const item = await retrieveItemByPlaidAccessToken(accessToken);
+
+  // Handle case where item has been deleted but webhooks are still being received
+  const itemId = item?.id;
+  const userId = item?.user_id;
+
   await createPlaidApiEvent(
     itemId,
     userId,

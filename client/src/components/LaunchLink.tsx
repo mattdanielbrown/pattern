@@ -16,7 +16,7 @@ import useItems from '../services/items.tsx';
 import useLink from '../services/link.tsx';
 import useErrors from '../services/errors.tsx';
 
-import { exchangeToken, setItemState } from '../services/api.tsx'
+import { exchangeToken, setItemState } from '../services/api.tsx';
 
 interface Props {
   isOauth?: boolean;

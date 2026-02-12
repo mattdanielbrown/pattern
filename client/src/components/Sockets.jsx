@@ -83,8 +83,6 @@ export default function Sockets() {
       getItemById(itemId, true);
     });
 
-
-
     socket.current.on('NEW_TRANSACTIONS_DATA', ({ itemId } = {}) => {
       getAccountsByItem(itemId);
       getTransactionsByItem(itemId);
